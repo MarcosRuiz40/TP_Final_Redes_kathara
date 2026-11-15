@@ -1,0 +1,11 @@
+ip a add 10.0.95.254/20 dev eth0
+ip a add 192.168.20.70/30 dev eth1
+ip a add 192.168.20.73/30 dev eth2
+ip a add 192.168.20.105/30 dev eth3
+ip a add 192.168.20.66/30 dev eth4
+
+#deslimitacion
+ulimit -n 1024
+/etc/init.d/quagga start
+
+ln -sf /shared/hosts /etc/hosts

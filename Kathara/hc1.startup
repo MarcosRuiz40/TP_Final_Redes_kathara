@@ -1,5 +1,6 @@
 ip addr add 10.0.0.1/18 dev eth0
 ip route add default via 10.0.63.254
-cp /shared/resolv.conf /etc/resolv.conf
 
 /etc/init.d/named start
+
+ln -sf /shared/hosts /etc/hosts

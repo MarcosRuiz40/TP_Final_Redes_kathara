@@ -1,0 +1,4 @@
+ip a add 10.0.64.65/28 dev eth0
+ip route add default via 10.0.64.78
+
+ln -sf /shared/hosts /etc/hosts
