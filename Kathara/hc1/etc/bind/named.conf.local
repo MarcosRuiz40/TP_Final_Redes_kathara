@@ -1,0 +1,4 @@
+zone "mr-empresa.izo" {
+	type master;
+	file "/etc/bind/db.mr-empresa.izo";
+};

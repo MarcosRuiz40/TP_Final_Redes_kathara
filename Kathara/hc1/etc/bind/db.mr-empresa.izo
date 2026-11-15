@@ -1,0 +1,157 @@
+$TTL	604800
+@	IN	SOA	hc1.mr-empresa.izo. root.mr-empresa.izo. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+	IN	NS	hc1.mr-empresa.izo.
+
+; Hosts
+ha1	IN	A	192.168.10.1
+ha2	IN	A	192.168.10.2
+ha3	IN	A	192.168.10.3
+ha4	IN	A	192.168.10.4
+ha5	IN	A	192.168.10.5
+hb1	IN	A	172.16.0.1
+hc1	IN	A	10.0.0.1
+hd1	IN	A	172.18.0.1
+he1	IN	A	172.18.32.1
+hf1	IN	A	172.18.40.1
+hg1	IN	A	192.168.10.129
+hh1	IN	A	192.168.10.137
+hi1	IN	A	10.0.64.1
+hj1	IN	A	10.0.64.65
+hk1	IN	A	10.0.64.81
+hl1	IN	A	10.0.64.97
+hm1	IN	A	10.0.80.1
+hn1	IN	A	10.0.96.1
+ho1	IN	A	172.18.44.1
+hp1	IN	A	172.18.42.1
+hq1	IN	A	10.0.65.1
+hr1	IN	A	192.168.10.193
+hs1	IN	A	192.168.11.1
+ht1	IN	A	192.168.10.161
+hu1	IN	A	192.168.10.145
+hv1	IN	A	10.0.64.101
+
+; Interfaces del Router RA
+ra0	IN	A	192.168.10.126
+ra1	IN	A	192.168.20.1
+ra2	IN	A	192.168.20.17
+
+; Interfaces del Router RB
+rb0	IN	A	172.17.255.254
+rb1	IN	A	192.168.20.5
+rb2	IN	A	192.168.20.25
+rb3	IN	A	192.168.20.2
+
+; Interfaces del Router RC
+rc0	IN	A	10.0.63.254
+rc1	IN	A	192.168.20.9
+rc2	IN	A	192.168.20.53
+rc3	IN	A	192.168.20.33
+rc4	IN	A	192.168.20.49
+rc5	IN	A	192.168.20.6
+
+; Interfaces del Router RD
+rd0	IN	A	172.18.31.254
+rd1	IN	A	192.168.20.13
+rd2	IN	A	192.168.20.41
+rd3	IN	A	192.168.20.10
+
+; Interfaces del Router REU
+reu0	IN	A	172.18.39.254
+reu1	IN	A	192.168.10.158
+reu2	IN	A	192.168.20.14
+
+; Interfaces del Router RF
+rf0	IN	A	172.18.41.254
+rf1	IN	A	192.168.20.18
+rf2	IN	A	192.168.20.21
+
+; Interfaces del Router RG
+rg0	IN	A	192.168.10.134
+rg1	IN	A	192.168.20.50
+rg2	IN	A	192.168.20.29
+rg3	IN	A	192.168.20.61
+rg4	IN	A	192.168.20.22
+rg5	IN	A	192.168.20.26
+
+; Interfaces del Router RH
+rh0	IN	A	192.168.10.138
+rh1	IN	A	192.168.20.34
+rh2	IN	A	192.168.20.37
+rh3	IN	A	192.168.20.69
+rh4	IN	A	192.168.20.30
+
+; Interfaces del Router RI
+ri0	IN	A	10.0.64.62
+ri1	IN	A	192.168.20.42
+ri2	IN	A	192.168.20.45
+ri3	IN	A	192.168.20.77
+ri4	IN	A	192.168.20.38
+ri5	IN	A	192.168.20.54
+
+; Interfaces del Router RJ
+rj0	IN	A	10.0.64.78
+rj1	IN	A	192.168.20.85
+rj2	IN	A	192.168.20.46
+
+; Interfaces del Router RK
+rk0	IN	A	10.0.64.94
+rk1	IN	A	192.168.20.57
+rk2	IN	A	192.168.20.89
+
+; Interfaces del Router RL
+rl0	IN	A	10.0.64.98
+rl1	IN	A	192.168.20.62
+rl2	IN	A	192.168.20.65
+rl3	IN	A	192.168.20.97
+rl4	IN	A	192.168.20.58
+
+; Interfaces del Router RM
+rm0	IN	A	10.0.95.254
+rm1	IN	A	192.168.20.70
+rm2	IN	A	192.168.20.73
+rm3	IN	A	192.168.20.105
+rm4	IN	A	192.168.20.66
+
+; Interfaces del Router RN
+rn0	IN	A	10.0.103.254
+rn1	IN	A	192.168.20.78
+rn2	IN	A	192.168.20.86
+rn3	IN	A	192.168.20.81
+rn4	IN	A	192.168.20.113
+rn5	IN	A	192.168.20.74
+
+; Interfaces del Router RO
+ro0	IN	A	172.18.47.254
+ro1	IN	A	192.168.20.82
+
+; Interfaces del Router RPV
+rpv0	IN	A	172.18.42.254
+rpv1	IN	A	10.0.64.102
+rpv2	IN	A	192.168.20.90
+
+; Interfaces del Router RQ
+rq0	IN	A	10.0.65.126
+rq1	IN	A	192.168.20.98
+rq2	IN	A	192.168.20.101
+
+; Interfaces del Router RR
+rr0	IN	A	192.168.10.254
+rr1	IN	A	192.168.20.106
+rr2	IN	A	192.168.20.109
+rr3	IN	A	192.168.20.102
+
+; Interfaces del Router RS
+rs0	IN	A	192.168.11.30
+rs1	IN	A	192.168.20.114
+rs2	IN	A	192.168.20.117
+rs3	IN	A	192.168.20.110
+
+; Interfaces del Router RT
+rt0	IN	A	192.168.10.166
+rt1	IN	A	192.168.20.118

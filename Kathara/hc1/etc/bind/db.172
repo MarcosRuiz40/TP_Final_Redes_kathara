@@ -1,0 +1,25 @@
+$TTL	604800
+@	IN	SOA	hc1.mr-empresa.izo. root.mr-empresa.izo. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+	IN	NS	hc1.mr-empresa.izo.
+
+; Hosts
+1.0.16	IN	PTR	hb1.mr-empresa.izo.
+1.0.18	IN	PTR	hd1.mr-empresa.izo.
+1.32.18	IN	PTR	he1.mr-empresa.izo.
+1.40.18	IN	PTR	hf1.mr-empresa.izo.
+1.44.18	IN	PTR	ho1.mr-empresa.izo.
+1.42.18	IN	PTR	hp1.mr-empresa.izo.
+
+; Routers
+254.255.17	IN	PTR	rb0.mr-empresa.izo.
+254.31.18	IN	PTR	rd0.mr-empresa.izo.
+254.39.18	IN	PTR	reu0.mr-empresa.izo.
+254.41.18	IN	PTR	rf0.mr-empresa.izo.
+254.47.18	IN	PTR	ro0.mr-empresa.izo.
+254.42.18	IN	PTR	rpv0.mr-empresa.izo.

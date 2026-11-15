@@ -1,0 +1,127 @@
+$TTL	604800
+@	IN	SOA	hc1.mr-empresa.izo. root.mr-empresa.izo. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+	IN	NS	hc1.mr-empresa.izo.
+
+; Hosts
+1.10	IN	PTR	ha1.mr-empresa.izo.
+2.10	IN	PTR	ha2.mr-empresa.izo.
+3.10	IN	PTR	ha3.mr-empresa.izo.
+4.10	IN	PTR	ha4.mr-empresa.izo.
+5.10	IN	PTR	ha5.mr-empresa.izo.
+129.10	IN	PTR	hg1.mr-empresa.izo.
+137.10	IN	PTR	hh1.mr-empresa.izo.
+193.10	IN	PTR	hr1.mr-empresa.izo.
+1.11	IN	PTR	hs1.mr-empresa.izo.
+161.10	IN	PTR	ht1.mr-empresa.izo.
+145.10	IN	PTR	hu1.mr-empresa.izo.
+
+; Router RA
+126.10	IN	PTR	ra0.mr-empresa.izo.
+1.20	IN	PTR	ra1.mr-empresa.izo.
+17.20	IN	PTR	ra2.mr-empresa.izo.
+
+; Router RB
+5.20	IN	PTR	rb1.mr-empresa.izo.
+25.20	IN	PTR	rb2.mr-empresa.izo.
+2.20	IN	PTR	rb3.mr-empresa.izo.
+
+; Router RC
+9.20	IN	PTR	rc1.mr-empresa.izo.
+53.20	IN	PTR	rc2.mr-empresa.izo.
+33.20	IN	PTR	rc3.mr-empresa.izo.
+49.20	IN	PTR	rc4.mr-empresa.izo.
+6.20	IN	PTR	rc5.mr-empresa.izo.
+
+; Router RD
+13.20	IN	PTR	rd1.mr-empresa.izo.
+41.20	IN	PTR	rd2.mr-empresa.izo.
+10.20	IN	PTR	rd3.mr-empresa.izo.
+
+; Router REU
+158.10	IN	PTR	reu1.mr-empresa.izo.
+14.20	IN	PTR	reu2.mr-empresa.izo.
+
+; Router RF
+18.20	IN	PTR	rf1.mr-empresa.izo.
+21.20	IN	PTR	rf2.mr-empresa.izo.
+
+; Router RG
+134.10	IN	PTR	rg0.mr-empresa.izo.
+50.20	IN	PTR	rg1.mr-empresa.izo.
+29.20	IN	PTR	rg2.mr-empresa.izo.
+61.20	IN	PTR	rg3.mr-empresa.izo.
+22.20	IN	PTR	rg4.mr-empresa.izo.
+26.20	IN	PTR	rg5.mr-empresa.izo.
+
+; Router RH
+138.10	IN	PTR	rh0.mr-empresa.izo.
+34.20	IN	PTR	rh1.mr-empresa.izo.
+37.20	IN	PTR	rh2.mr-empresa.izo.
+69.20	IN	PTR	rh3.mr-empresa.izo.
+30.20	IN	PTR	rh4.mr-empresa.izo.
+
+; Router RI
+42.20	IN	PTR	ri1.mr-empresa.izo.
+45.20	IN	PTR	ri2.mr-empresa.izo.
+77.20	IN	PTR	ri3.mr-empresa.izo.
+38.20	IN	PTR	ri4.mr-empresa.izo.
+54.20	IN	PTR	ri5.mr-empresa.izo.
+
+; Router RJ
+85.20	IN	PTR	rj1.mr-empresa.izo.
+46.20	IN	PTR	rj2.mr-empresa.izo.
+
+; Router RK
+57.20	IN	PTR	rk1.mr-empresa.izo.
+89.20	IN	PTR	rk2.mr-empresa.izo.
+
+; Router RL
+62.20	IN	PTR	rl1.mr-empresa.izo.
+65.20	IN	PTR	rl2.mr-empresa.izo.
+97.20	IN	PTR	rl3.mr-empresa.izo.
+58.20	IN	PTR	rl4.mr-empresa.izo.
+
+; Router RM
+70.20	IN	PTR	rm1.mr-empresa.izo.
+73.20	IN	PTR	rm2.mr-empresa.izo.
+105.20	IN	PTR	rm3.mr-empresa.izo.
+66.20	IN	PTR	rm4.mr-empresa.izo.
+
+; Router RN
+78.20	IN	PTR	rn1.mr-empresa.izo.
+86.20	IN	PTR	rn2.mr-empresa.izo.
+81.20	IN	PTR	rn3.mr-empresa.izo.
+113.20	IN	PTR	rn4.mr-empresa.izo.
+74.20	IN	PTR	rn5.mr-empresa.izo.
+
+; Router RO
+82.20	IN	PTR	ro1.mr-empresa.izo.
+
+; Router RPV
+90.20	IN	PTR	rpv2.mr-empresa.izo.
+
+; Router RQ
+98.20	IN	PTR	rq1.mr-empresa.izo.
+101.20	IN	PTR	rq2.mr-empresa.izo.
+
+; Router RR
+254.10	IN	PTR	rr0.mr-empresa.izo.
+106.20	IN	PTR	rr1.mr-empresa.izo.
+109.20	IN	PTR	rr2.mr-empresa.izo.
+102.20	IN	PTR	rr3.mr-empresa.izo.
+
+; Router RS
+30.11	IN	PTR	rs0.mr-empresa.izo.
+114.20	IN	PTR	rs1.mr-empresa.izo.
+117.20	IN	PTR	rs2.mr-empresa.izo.
+110.20	IN	PTR	rs3.mr-empresa.izo.
+
+; Router RT
+166.10	IN	PTR	rt0.mr-empresa.izo.
+118.20	IN	PTR	rt1.mr-empresa.izo.
