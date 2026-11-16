@@ -12,4 +12,7 @@ ulimit -n 1024
 #NAT salida a Internet
 iptables -t nat -A POSTROUTING -o eth6 -j MASQUERADE
 
+#Servidor web visible desde Internet
+iptables -t nat -A PREROUTING -i eth6 -p tcp --dport 80 -j DNAT --to-destination 192.168.10.137:80
+
 ln -sf /shared/hosts /etc/hosts

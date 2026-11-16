@@ -2,3 +2,7 @@ ip a add 192.168.10.137/30 dev eth0
 ip route add default via 192.168.10.138
 
 ln -sf /shared/hosts /etc/hosts
+
+#chmod +x /usr/lib/cgi-bin/login.sh
+#a2enmod cgi
+/etc/init.d/apache2 start
