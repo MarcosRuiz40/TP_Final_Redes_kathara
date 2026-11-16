@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
   <diagram name="Topologia" id="topo2">
-    <mxGraphModel dx="3125" dy="1689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="928" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,7 +74,7 @@
         <mxCell id="mx-if-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;" value="17@2" vertex="1">
           <mxGeometry height="15" width="29" x="733.2" y="696.2" as="geometry" />
         </mxCell>
-        <mxCell id="mx-if-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;" value="17.255.254@0" vertex="1">
+        <mxCell id="mx-if-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;" value="21.255.254@0" vertex="1">
           <mxGeometry height="15" width="78" x="1116.8" y="582.5" as="geometry" />
         </mxCell>
         <mxCell id="mx-if-5" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;" value="5@1" vertex="1">
@@ -1126,10 +1126,10 @@
         <mxCell id="pc-HB1" parent="1" style="sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.pc;labelPerimeter=1;" value="HB1" vertex="1">
           <mxGeometry height="70" width="78" x="1221" y="325" as="geometry" />
         </mxCell>
-        <mxCell id="mx-h-HB1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;" value="16.0.1@0" vertex="1">
+        <mxCell id="mx-h-HB1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;" value="20.0.1@0" vertex="1">
           <mxGeometry height="15" width="54" x="1233.2" y="296" as="geometry" />
         </mxCell>
-        <mxCell id="n178" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=11;" value="LB&lt;br&gt;172.16.0.0/15" vertex="1">
+        <mxCell id="n178" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=11;" value="LB&lt;br&gt;172.20.0.0/15" vertex="1">
           <mxGeometry height="32" width="150" x="922" y="404" as="geometry" />
         </mxCell>
         <mxCell id="n179" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" value="">
@@ -1693,6 +1693,24 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1691.4" y="482.80000000000007" as="sourcePoint" />
             <mxPoint x="1650" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xs051sknwm2ywOXHYp5S-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;" value="172.17.0.0/16" vertex="1">
+          <mxGeometry height="34" width="120" x="2159" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs051sknwm2ywOXHYp5S-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;" value=".2@6" vertex="1">
+          <mxGeometry height="15" width="54" x="2151.7" y="608.6" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs051sknwm2ywOXHYp5S-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;" value=".1" vertex="1">
+          <mxGeometry height="15" width="54" x="2150" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs051sknwm2ywOXHYp5S-4" parent="1" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.dhcp_server;labelPerimeter=1;" value="Servidor&lt;br&gt;DHCP" vertex="1">
+          <mxGeometry height="90" width="76" x="140" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Xs051sknwm2ywOXHYp5S-6" edge="1" parent="1" source="pc-HA1" style="endArrow=none;html=1;rounded=0;" target="Xs051sknwm2ywOXHYp5S-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="172" y="378" as="sourcePoint" />
+            <mxPoint x="100" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
