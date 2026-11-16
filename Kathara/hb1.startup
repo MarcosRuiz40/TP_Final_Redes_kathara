@@ -1,4 +1,4 @@
-ip a add 172.16.0.1/15 dev eth0
-ip route add default via 172.17.255.254
+ip a add 172.20.0.1/15 dev eth0
+ip route add default via 172.21.255.254
 
 ln -sf /shared/hosts /etc/hosts

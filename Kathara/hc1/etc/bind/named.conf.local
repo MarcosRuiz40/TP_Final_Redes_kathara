@@ -1,4 +1,19 @@
 zone "mr-empresa.izo" {
-	type master;
-	file "/etc/bind/db.mr-empresa.izo";
+    type master;
+    file "/etc/bind/db.mr-empresa.izo";
+};
+
+zone "10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.10";
+};
+
+zone "172.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.172";
+};
+
+zone "168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192.168";
 };
