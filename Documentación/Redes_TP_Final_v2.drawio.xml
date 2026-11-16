@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
   <diagram name="Topologia" id="topo2">
-    <mxGraphModel dx="928" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5570" dy="2365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1711,6 +1711,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="172" y="378" as="sourcePoint" />
             <mxPoint x="100" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HT3atKuW-dU2OcUC-ijs-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Servidor DNS" vertex="1">
+          <mxGeometry height="30" width="60" x="1820" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="HT3atKuW-dU2OcUC-ijs-2" parent="1" style="aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.cwh_cloud_web_hosting;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Servidor Web&lt;br&gt;(apache2)" vertex="1">
+          <mxGeometry height="45.6" width="49.8" x="2375" y="1373" as="geometry" />
+        </mxCell>
+        <mxCell id="HT3atKuW-dU2OcUC-ijs-4" edge="1" parent="1" source="pc-HH1" style="endArrow=none;html=1;rounded=0;entryX=0.013;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="HT3atKuW-dU2OcUC-ijs-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2360" y="1360" as="sourcePoint" />
+            <mxPoint x="2340" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
