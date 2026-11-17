@@ -13,8 +13,11 @@ Ninguna imagen de Kathara trae las dos cosas juntas: kathara/quagga no tiene DHC
 
 ### Cómo crearla
 
-Antes de levantar el laboratorio, desde la raíz del repo:
+Antes de levantar el laboratorio, ejecutar:
 
 ```
-docker build -t kathara/dhcp-quagga imagen-dhcp-quagga
+docker build -t kathara/dhcp-quagga - <<'EOF'
+FROM kathara/quagga
+RUN apt-get update && apt-get install -y isc-dhcp-server && rm -rf /var/lib/apt/lists/*
+EOF
 ```
